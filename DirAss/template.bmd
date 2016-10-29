@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="test" document_type="BLUMIND" editor_version="1.2.18.0">
+  <!--Create by Blumind, you can download it free from http://www.hyfree.net/download-->
+  <info />
+  <layout>MIND_MAP</layout>
+  <attributes>
+    <item name="editor_show_sidebar">True</item>
+  </attributes>
+  <style>
+    <back_color>White</back_color>
+    <fore_color>Black</fore_color>
+    <line_color>Black</line_color>
+    <border_color>#5A4EB1</border_color>
+    <node_back_color>#AEA8D9</node_back_color>
+    <node_fore_color>Black</node_fore_color>
+    <select_color>#5A4EB1</select_color>
+    <hover_color>#5A4EB1</hover_color>
+    <link_line_color>#5A4EB1</link_line_color>
+  </style>
+  <nodes>
+	<style>
+	<back_color>#5A4EB1</back_color>
+	<fore_color>White</fore_color>
+	<border_color>#B68FCB</border_color>
+	</style>
+	%s
+  </nodes>
+</map>

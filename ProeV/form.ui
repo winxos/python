@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>wForm</class>
+ <widget class="QWidget" name="wForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>552</width>
+    <height>291</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ProEVersion</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>9</y>
+     <width>534</width>
+     <height>273</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="btnSelect">
+        <property name="text">
+         <string>选择文件夹</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnPurge">
+        <property name="text">
+         <string>清除旧版本</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnReversion">
+        <property name="text">
+         <string>后缀归1</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnUndo">
+        <property name="text">
+         <string>清除上次保存</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>原始文件</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPlainTextEdit" name="txtmsg"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>效果预览</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="txtout"/>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnApply">
+          <property name="text">
+           <string>应用</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btnSelect</sender>
+   <signal>clicked()</signal>
+   <receiver>wForm</receiver>
+   <slot>openPath()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>59</x>
+     <y>23</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>125</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnReversion</sender>
+   <signal>clicked()</signal>
+   <receiver>wForm</receiver>
+   <slot>reVersion()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>17</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>344</x>
+     <y>-10</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnPurge</sender>
+   <signal>clicked()</signal>
+   <receiver>wForm</receiver>
+   <slot>purge()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>227</x>
+     <y>16</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>-12</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>openPath()</slot>
+  <slot>reVersion()</slot>
+  <slot>purge()</slot>
+ </slots>
+</ui>

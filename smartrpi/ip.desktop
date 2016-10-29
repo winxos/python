@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=ip report
+Comment=aistlab
+Exec=python /home/pi/smart_embed.py
+Type=Application
+Encoding=UTF-8
+Terminal=true
+NoDisplay=false

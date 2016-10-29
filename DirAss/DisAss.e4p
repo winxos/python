@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-5.1.dtd">
+<!-- eric5 project file for project DisAss -->
+<!-- Saved: 2011-04-08, 20:36:07 -->
+<!-- Copyright (C) 2011 winxos, winxos@hotmail.com -->
+<Project version="5.1">
+  <Language></Language>
+  <Hash>9f85f3e2ee7b59a58b441435fd8b14934f48f007</Hash>
+  <ProgLanguage mixed="0">Python3</ProgLanguage>
+  <ProjectType>Qt4</ProjectType>
+  <Description>batch directories creater helper.</Description>
+  <Version>0.1</Version>
+  <Author>winxos</Author>
+  <Email>winxos@hotmail.com</Email>
+  <Sources>
+    <Source>start.pyw</Source>
+    <Source>__init__.py</Source>
+    <Source>Ui_mainform.py</Source>
+    <Source>Ui_about.py</Source>
+    <Source>blumind.py</Source>
+  </Sources>
+  <Forms>
+    <Form>mainform.ui</Form>
+    <Form>about.ui</Form>
+  </Forms>
+  <Translations/>
+  <Resources/>
+  <Interfaces/>
+  <Others/>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.pyw3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.ui" type="FORMS"/>
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.py" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES"/>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.ui.h" type="FORMS"/>
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.py3" type="SOURCES"/>
+  </FiletypeAssociations>
+</Project>
